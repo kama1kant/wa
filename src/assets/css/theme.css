@@ -86,9 +86,11 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: var(--bs-white);
+  /* color: var(--bs-body-color); */
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
+  background-color: var(--bs-black);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -106,7 +108,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 600;
   line-height: 1.2;
-  color: #1e2022;
+  /* color: var(--bs-gray-900); */
+  color: var(--bs-white);
 }
 
 h1, .h1 {
@@ -24721,7 +24724,8 @@ label.form-control,
 ------------------------------------*/
 .text-cap {
   display: block;
-  color: #1e2022;
+  /* color: #1e2022; */
+  color: var(--bs-white);
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.03125rem;

@@ -8,17 +8,21 @@
   <link rel="shortcut icon" href="./favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/theme.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
 </head>
 
 <body>
-  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-light bg-white">
+  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-light bg-black">
     <div class="container">
       <nav class="js-mega-menu navbar-nav-wrap">
         <a class="navbar-brand" href="../index.html" aria-label="Solys">
-          <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo">
+          <img class="navbar-brand-logo" src="./assets/svg/logos/logo-white.svg" alt="Logo">
         </a>
-  
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-default">
@@ -28,9 +32,9 @@
             <i class="bi-x"></i>
           </span>
         </button>
-  
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">  
+          <ul class="navbar-nav">
             <!-- Account -->
             <!-- <li class="hs-has-sub-menu nav-item">
               <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button"
@@ -81,10 +85,11 @@
                 <a class="dropdown-item" href="#">Error 404</a>
               </div>
             </li> -->
-            <li class="nav-item">
-              <a class="btn btn-primary btn-transition"
-                href="https://themes.getbootstrap.com/product/Solys-multipurpose-responsive-template/" target="_blank">Get early access</a>
-            </li>
+            <!-- <li class="nav-item">
+              <a class="btn btn-light btn-transition"
+                href="https://themes.getbootstrap.com/product/Solys-multipurpose-responsive-template/"
+                target="_blank">Get early access</a>
+            </li> -->
           </ul>
         </div>
       </nav>
@@ -93,12 +98,15 @@
 
   <!-- Hero start -->
   <div class="container content-space-t-3 content-space-t-lg-4 content-space-b-2">
-    <div class="w-md-75 w-lg-50 text-center mx-auto">
-      <h1 class="display-2">AI based Blockchain Analytics</h1>
-      <p class="lead">1000+ data points to build customized analytics for Trading, NFT promotion, API endpoints.</p>
+    <div class="mx-auto">
+      <h1 class="cdisplay-1">Search Engine for Blockchain Data</h1>
+      <p class="display-6">AI based Blockchain Analytics.</p>
+      <a class="btn btn-light btn-transition"
+        href="https://themes.getbootstrap.com/product/Solys-multipurpose-responsive-template/" target="_blank" style="background: #fdeff9;">Get early
+        access</a>
     </div>
   </div>
-  
+
   <div class="d-md-flex min-vh-100 bg-img-start rounded-2 mx-3 my-3"
     style="background-image: url(https://cdn.dribbble.com/userupload/3908462/file/original-494c08ececbc5c905356638cba605f5e.png?compress=1&resize=1504x1128&vertical=center);">
     <div class="container d-flex justify-content-center flex-column min-vh-100">
@@ -115,47 +123,85 @@
   <!-- Hero end -->
 
   <!-- Feature start -->
-  
-  <!-- Feature 1 start -->
-  <div class="shape-container content-space-t-3 content-space-t-lg-4 content-space-b-2">
+
+  <!-- Feature Blocks -->
+  <div class="shape-container content-space-t-3 content-space-t-lg-4">
     <div class="container">
       <!-- Heading -->
-      <div class="w-md-75 text-center mx-md-auto mb-5 mb-md-9">
-        <h2 class="h1">Build your personalized Trading Tool</h2>
-        <p>Drag & drop charts from collection of thousands or use one built by the community.</p>
+      <div class="">
+        <span class="text-cap">Why Solys</span>
+        <h1 class="display-1">Real-time Blockchain data at your finger tips</h2>
       </div>
       <!-- End Heading -->
 
-      <div class="w-100 mx-auto">
-        <img class="img-fluid" src="https://cdn.dribbble.com/userupload/3908463/file/original-5a42783b4d63c68f5e3b6b9b0a12a7fb.png?compress=1&resize=1962x1395&vertical=center" alt="Image Description">
-      </div>
-    </div>
-  </div>
-  <!-- Feature 1 end -->
+      <div class="row content-space-t-lg-4 content-space-b-2">
+        <div class="col-sm-6 col-md-4 mb-3 mb-sm-7">
+          <!-- Feature Block -->
+          <div class="d-flex align-items-center mb-2">
+            <!-- <div class="flex-shrink-0">
+              <span class="svg-icon svg-icon-sm text-primary">
+                <img class="img-fluid" src="./assets/svg/logos/logo-short.svg" alt="Image Description">
+              </span>
+            </div> -->
 
-  <!-- Feature 2 start -->
-  <div class="shape-container content-space-t-3 content-space-t-lg-4 content-space-b-2">
-    <div class="container">
-      <!-- Heading -->
-      <div class="w-md-75 text-center mx-md-auto mb-5 mb-md-9">
-        <h2 class="h1">Track colletors after you launch your NFT collection</h2>
-        <p>Drag & drop charts from collection of thousands or use one built by the community.</p>
+            <div class="flex-grow-1">
+              <h2 class="mb-0">Blockchain Analytics for Crypto Investors</h2>
+            </div>
+          </div>
+          <!-- End Feature Block -->
+
+          <p>Get detailed market insight from millions of data points.</p>
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-3 mb-sm-7">
+          <!-- Feature Block -->
+          <div class="d-flex align-items-center mb-2">
+            <!-- <div class="flex-shrink-0">
+              <span class="svg-icon svg-icon-sm text-primary">
+                <img class="img-fluid" src="./assets/svg/logos/logo-short.svg" alt="Image Description">
+              </span>
+            </div> -->
+
+            <div class="flex-grow-1">
+              <h2 class="mb-0">Business Intelligence for DApps & DAOs</h2>
+            </div>
+          </div>
+          <!-- End Feature Block -->
+
+          <p>Generate reports on Conversion, Retention, and Engagement.</p>
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-3 mb-sm-7 mb-md-0">
+          <!-- Feature Block -->
+          <div class="d-flex align-items-center mb-2">
+            <!-- <div class="flex-shrink-0">
+              <span class="svg-icon svg-icon-sm text-primary">
+                <img class="img-fluid" src="./assets/svg/logos/logo-short.svg" alt="Image Description">
+              </span>
+            </div> -->
+
+            <div class="flex-grow-1">
+              <h2 class="mb-0">Custom Queries</h2>
+            </div>
+          </div>
+          <!-- End Feature Block -->
+
+          <p>AI based search engine to query any blockchain data.</p>
+        </div>
+        <!-- End Col -->
+
       </div>
-      <!-- End Heading -->
-  
-      <div class="w-100 mx-auto">
-        <img class="img-fluid"
-          src="https://cdn.dribbble.com/userupload/3908463/file/original-5a42783b4d63c68f5e3b6b9b0a12a7fb.png?compress=1&resize=1962x1395&vertical=center"
-          alt="Image Description">
-      </div>
-  
+      <!-- End Row -->
     </div>
   </div>
-    <!-- Feature 2 end -->
+  <!-- End Feature Blocks -->
+
   <!-- Feature end -->
 
   <!-- ========== FOOTER ========== -->
-  <footer class="bg-dark">
+  <footer class="bg-black">
     <div class="container content-space-t-2 content-space-b-1">
       <div class="row mb-9">
         <div class="col-lg-3 mb-5 mb-lg-0">
@@ -166,109 +212,75 @@
           <!-- End Logo -->
         </div>
         <!-- End Col -->
-  
-        <div class="col-6 col-md-3 col-lg-2 mb-5 mb-md-0">
-          <h5 class="text-white">Help and advice</h5>
-  
+
+        <div class="col-lg-3 mb-5 mb-md-0">
+          <h5 class="text-white text-cap">Help and advice</h5>
+
           <!-- Links -->
           <ul class="list-unstyled list-py-1 mb-0">
             <li><a class="link-sm link-light" href="#">Contact us</a></li>
-            <li><a class="link-sm link-light" href="#">FAQ</a></li>
-            <li><a class="link-sm link-light" href="#">Legal & Privacy</a></li>
+            <li><a class="link-sm link-light" href="#">Terms of Use</a></li>
+            <li><a class="link-sm link-light" href="#">Privacy Policy</a></li>
           </ul>
           <!-- End Links -->
         </div>
         <!-- End Col -->
-  
-        <div class="col-6 col-md-3 col-lg-2 mb-5 mb-md-0">
-          <h5 class="text-white">About us</h5>
-  
+
+        <div class="col-lg-3 mb-5 mb-md-0">
+          <h5 class="text-white text-cap">Company</h5>
+
           <!-- Nav Links -->
           <ul class="list-unstyled list-py-1 mb-0">
-            <li><a class="link-sm link-light" href="#">About Spec</a></li>
+            <li><a class="link-sm link-light" href="#">About us</a></li>
             <li><a class="link-sm link-light" href="#">Careers</a></li>
           </ul>
           <!-- End Nav Links -->
         </div>
         <!-- End Col -->
-  
-        <div class="col-md-6 col-lg-5">
-          <!-- Form -->
-          <form>
-            <h5 class="text-white">Get early access</h5>
-  
-            <!-- Input Card -->
-            <div class="input-card mt-3">
-              <div class="input-card-form">
-                <input type="text" class="form-control" placeholder="Enter email" aria-label="Enter email">
-              </div>
-              <button type="button" class="btn btn-primary">Submit</button>
-            </div>
-            <!-- End Input Card -->
-          </form>
-          <!-- End Form -->
-  
-          <p class="form-text text-white-70">Get updates on new feature releases.</p>
+
+        <div class="col-lg-3">
+          <p class="text-white-70 small mb-0">© Solys. 2023. All rights reserved.</p>
+          <div class="col-auto">
+            <!-- Socials -->
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-ghost-light btn-sm btn-icon" href="#">
+                  <i class="bi-twitter"></i>
+                </a>
+              </li>
+          
+              <li class="list-inline-item">
+                <a class="btn btn-ghost-light btn-sm btn-icon" href="#">
+                  <i class="bi-github"></i>
+                </a>
+              </li>
+          
+              <li class="list-inline-item">
+                <a class="btn btn-ghost-light btn-sm btn-icon" href="#">
+                  <i class="bi-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- End Socials -->
+          </div>
         </div>
         <!-- End Col -->
       </div>
       <!-- End Row -->
-  
-      <div class="row align-items-center">
-        <div class="col">
-          <p class="text-white-70 small mb-0">© Solys. 2023. All rights reserved.</p>
-        </div>
-        <!-- End Col -->
-  
-        <div class="col-auto">
-          <!-- Socials -->
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a class="btn btn-ghost-light btn-sm btn-icon" href="#">
-                <i class="bi-facebook"></i>
-              </a>
-            </li>
-  
-            <li class="list-inline-item">
-              <a class="btn btn-ghost-light btn-sm btn-icon" href="#">
-                <i class="bi-google"></i>
-              </a>
-            </li>
-  
-            <li class="list-inline-item">
-              <a class="btn btn-ghost-light btn-sm btn-icon" href="#">
-                <i class="bi-twitter"></i>
-              </a>
-            </li>
-  
-            <li class="list-inline-item">
-              <a class="btn btn-ghost-light btn-sm btn-icon" href="#">
-                <i class="bi-github"></i>
-              </a>
-            </li>
-  
-            <li class="list-inline-item">
-              <a class="btn btn-ghost-light btn-sm btn-icon" href="#">
-                <i class="bi-linkedin"></i>
-              </a>
-            </li>
-          </ul>
-          <!-- End Socials -->
-        </div>
-        <!-- End Col -->
-      </div>
+
+      
       <!-- End Row -->
     </div>
   </footer>
   <!-- ========== END FOOTER ========== -->
 
 
-  
+
 
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   <script src="./assets/js/hs.core.js"></script>
   <script src="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
-  
+
   <!-- JS Plugins Init. -->
   <script>
     (function () {
