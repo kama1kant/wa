@@ -41,7 +41,19 @@ body {
 }
 
 @media (min-width: 1200px) {
-    .display-1 {
+    .cdisplay-1 {
         font-size: 6rem;
+    }
+}
+
+.cbg-img-center {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (max-width: 576px) {
+    .min-vh-100 {
+        min-height: 20vh !important;
     }
 }
