@@ -17,7 +17,7 @@ function Body() {
     return (
         <div className='body text-start'>
             <div>
-                <header id='header' className='navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-light'>
+                <header id='header' className='navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light'>
                     <div className='container'>
                         <nav className='js-mega-menu navbar-nav-wrap'>
                             <a className='navbar-brand' href='#' aria-label='Solys'>
