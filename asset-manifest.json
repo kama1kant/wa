@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.d6ffdea0.chunk.css",
-  "main.js": "/static/js/main.949b09ed.chunk.js",
-  "main.js.map": "/static/js/main.949b09ed.chunk.js.map",
+  "main.js": "/static/js/main.f00f2725.chunk.js",
+  "main.js.map": "/static/js/main.f00f2725.chunk.js.map",
   "static/js/1.346e52ce.chunk.js": "/static/js/1.346e52ce.chunk.js",
   "static/js/1.346e52ce.chunk.js.map": "/static/js/1.346e52ce.chunk.js.map",
   "static/css/2.4e5642a7.chunk.css": "/static/css/2.4e5642a7.chunk.css",
@@ -13,10 +13,10 @@
   "static/media/style.css": "/static/media/Aeonik-Regular.844324dc.otf",
   "static/media/solys-logo-white.svg": "/static/media/solys-logo-white.44e338f9.svg",
   "static/media/mockup.svg": "/static/media/mockup.834e719a.svg",
-  "static/media/bootstrap-icons.css": "/static/media/bootstrap-icons.7f477633.woff2",
+  "static/media/bootstrap-icons.css": "/static/media/bootstrap-icons.52196284.woff",
   "static/css/main.d6ffdea0.chunk.css.map": "/static/css/main.d6ffdea0.chunk.css.map",
   "static/css/2.4e5642a7.chunk.css.map": "/static/css/2.4e5642a7.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.4857bb10a71f8cbb9a55e9c14a2c14e7.js": "/precache-manifest.4857bb10a71f8cbb9a55e9c14a2c14e7.js",
+  "precache-manifest.ea5ca4c6a561b97f2e4ec4993dfdc4f4.js": "/precache-manifest.ea5ca4c6a561b97f2e4ec4993dfdc4f4.js",
   "service-worker.js": "/service-worker.js"
 }
