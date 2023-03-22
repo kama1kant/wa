@@ -6,18 +6,21 @@ import '../assets/css/theme.css';
 import '../assets/css/style.css';
 import assetsLogo from '../assets/svg/logos/solys-logo-white.svg';
 import assetsMockup from '../assets/img/mockup.svg';
+// import '../assets/js/intercom';
+
+const callToActionButton = 'Get Early Access ';
 
 function Body() {
     useEffect(() => {
-        document.title = 'Solys YOLO';
+        document.title = 'Solys - Blockchain Analytics powered by AI';
     }, []);
     return (
         <div className='body text-start'>
             <div>
-                <header id='header' className='navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-light bg-black'>
+                <header id='header' className='navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-light'>
                     <div className='container'>
                         <nav className='js-mega-menu navbar-nav-wrap'>
-                            <a className='navbar-brand' href='../index.html' aria-label='Solys'>
+                            <a className='navbar-brand' href='#' aria-label='Solys'>
                                 <img className='navbar-brand-logo' src={assetsLogo} alt='Logo'/>
                             </a>
 
@@ -42,11 +45,10 @@ function Body() {
                  <div className='container content-space-t-3 content-space-t-lg-4 content-space-b-2'>
                     <div className='mx-auto'>
                         <h1 className='cdisplay-1'>Search Engine for Blockchain Data</h1>
-                        <p className='display-6'>AI based Blockchain Analytics.</p>
-                        <a className='btn btn-light btn-transition btn-lg'
-                            href='https://themes.getbootstrap.com/product/Solys-multipurpose-responsive-template/' target='_blank'
-                        >Get early
-                            access
+                        <p className='display-6'>Blockchain Analytics powered by AI.</p>
+                        <a className='btn btn-light btn-transition btn-lg my-6 fw-bold'
+                            href='https://tpffe8264hy.typeform.com/to/JeFTGiid' target='_blank'
+                        >{callToActionButton}
                             <i className='bi bi-arrow-right'></i></a>
                     </div>
                 </div>
@@ -66,7 +68,7 @@ function Body() {
                                         <h2 className='mb-0'>Blockchain Analytics for Crypto Investors</h2>
                                     </div>
                                 </div>
-                                <p>Get detailed market insight from millions of data points.</p>
+                                <h5 className='text-secondary'>Get detailed market insight from millions of data points.</h5>
                             </div>
                             <div className='col-sm-6 col-md-4 mb-3 mb-sm-7'>
                                 <div className='d-flex align-items-center mb-2'>
@@ -74,7 +76,7 @@ function Body() {
                                         <h2 className='mb-0'>Business Intelligence for DApps & DAOs</h2>
                                     </div>
                                 </div>
-                                <p>Generate reports on Conversion, Retention, and Engagement.</p>
+                                <h5 className='text-secondary'>Generate reports on Conversion, Retention, and Engagement.</h5>
                             </div>
                             <div className='col-sm-6 col-md-4 mb-3 mb-sm-7 mb-md-0'>
                                 <div className='d-flex align-items-center mb-2'>
@@ -82,7 +84,7 @@ function Body() {
                                         <h2 className='mb-0'>Custom Queries</h2>
                                     </div>
                                 </div>
-                                <p>AI based search engine to query any blockchain data.</p>
+                                <h5 className='text-secondary'>AI based search engine to query any blockchain data.</h5>
                             </div>
                         </div>
                     </div>
